@@ -1,35 +1,44 @@
-# 🎮 独立游戏开发情报站
+<div align="center">
 
-做独立游戏的人，最缺的不是热情，是**信息差**。引擎更新、AI 工具、发行渠道的风吹草动，晚知道一周可能就白干一周。
+# gamedev-radar
 
-我把每天刷到的值得看的信息，都汇到了一个地方：
+**A weekly digest of game-development releases and tooling changes, collected by script.**
 
-> **👉 [t.me/Lx_groups](https://t.me/Lx_groups)** —— 每日 AI / 科技快讯频道
-> 没装 Telegram？先在这里翻翻历史消息再决定：[t.me/s/Lx_groups](https://t.me/s/Lx_groups)
+[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-## 🕹️ 这个雷达扫描什么
+</div>
 
-| 📡 栏目 | 对游戏开发的用处 |
-|---|---|
-| AI 模型发布 / 降价 | NPC 对话、资产生成、本地部署成本 |
-| 芯片 / 端侧落地 | 你的游戏明年跑在什么硬件上 |
-| 开源 Agent 生态 | 工作流自动化，省掉外包美术的沟通成本 |
-| 免费工具 | 真能省钱的那种，不是试用陷阱 |
-| 纳指 / 科技股 | 行业风向，决定要不要接外包续命 |
+## About
 
-## 📮 深度长文
+The point of this repository is the archive: what mattered this week is
+easy to find, what mattered six months ago is not. Digests are plain markdown
+with dates and links so the history stays diffable and searchable.
 
-快讯看个热闹，原理看个门道。频道的深度版同步发在博客：
-**[blog.lynxflow.co](https://blog.lynxflow.co)**
+## Quick start
 
-频道是干嘛的、值不值得订，一页说清：
-**[blog.lxlynx.com/tg-channel-landing/](https://blog.lxlynx.com/tg-channel-landing/)**
+```bash
+git clone https://github.com/poormikey80-create/gamedev-radar
+cat README.md
+```
 
-## 🧷 使用姿势
+## Configuration
 
-- 标签订阅：`#AI` `#硬件` `#效率工具` 三个标签覆盖 90% 游戏开发相关
-- 每条快讯带原始来源链接，可溯源
-- 免费无广告，不收集信息
+| Key | Description |
+| --- | --- |
+| `README.md` | this file |
+## Roadmap
 
----
-*一个用 Godot 写游戏的人的私人雷达，顺便分享。*
+- [ ] Full-text search page
+- [ ] RSS output
+- [ ] Per-engine release diff for Godot minor versions
+
+## Contributing
+
+Issues and pull requests are welcome. Please keep changes small and focused,
+and add a test for any behaviour change — every repository here ships with a
+runnable test suite and no third-party dependencies, so CI is just
+`python3 -m unittest` / `bash test_*.sh`.
+
+## License
+
+[MIT](LICENSE)
